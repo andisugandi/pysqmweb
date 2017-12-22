@@ -28,3 +28,6 @@ PySQMWeb is a simple Ruby/Sinatra (web) application to display image and data fi
         $ bundle exec rackup
 
 6. Using a browser, go to `http://localhost:9292` and you'll see the application running.
+
+## Demo
+[![Web Apps of Galeri Data SQM](https://img.youtube.com/vi/gGiPzz96X6I/0.jpg)](https://www.youtube.com/watch?v=gGiPzz96X6I)
