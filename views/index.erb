@@ -1,0 +1,23 @@
+<div class="page-header">
+  <h1 class="text-center">Galeri Data SQM</h1>
+</div>
+<div class="row">
+  <% if @pictures %>
+    <ul class="list-unstyled">
+    <% @pictures.each do | picture | %>
+      <li class="col-md-4">
+        <h3>
+          <div id="link_bar">
+            <a href="<%= picture[:page_url] %>"><%= picture[:picture_name] %></a>
+          </div>
+        </h3>
+        <p>
+          <a class="thumbnail" href="<%= picture[:picture_url] %>" data-lightbox="gallery" data-title="<%= picture[:picture_name] %>">
+            <img src="<%= picture[:picture_url] %>" width="100%">
+          </a>
+        </p>        
+      </li>
+    <% end %>
+    </ul>
+  <% end %>
+</div>

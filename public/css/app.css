@@ -1,0 +1,46 @@
+body {
+  background-color: #f6f6f6;
+  font-family: Roboto, sans-serif;
+  color: #223
+}
+
+#app-title {
+  margin: 1em 0;
+}
+
+#file-placeholder img {
+  border: 3px dashed #ccc;
+  padding: 1em
+}
+
+#gallery li {
+  margin: 0 0 2em;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  padding: 1em 0;
+}
+
+.stMainServices, .stHBubble {
+  height: 22px !important;
+}
+
+#link_bar a { padding:4px; font-weight:bold; float:left; }
+#link_bar a:link { color:#d0d0d0; background-color:#0000a0; }
+#link_bar a:visited { color:#c0c0c0; background-color:#0000a0; }
+#link_bar a:hover { color:#ffffff; background-color:#000060; text-decoration:none; }
+#link_bar a:active { color:#f0f0f0; background-color:#00ff00; }
+
+.navbar-brand-centered {
+  position: absolute;
+  /* left: 50%; */
+  display: block;
+  text-align: center;
+  background-color: transparent;
+}
+.navbar-brand-centered h3{margin:0;margin-left: -30px;margin-top:-2px}
+  .navbar>.container .navbar-brand-centered,
+  .navbar>.container-fluid .navbar-brand-centered {
+      margin-left: -80px;
+  }
