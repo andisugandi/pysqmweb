@@ -7,7 +7,7 @@ PySQMWeb is a simple Ruby/Sinatra (web) application to display image and data fi
 1. Let's suppose your working directory right now is your user home directory, so clone the repository:
 
         $ cd
-        $ git https://github.com/andisugandi/pysqmweb.git
+        $ git clone https://github.com/andisugandi/pysqmweb.git
 
 2. Change working directory to `pysqmweb`:
 
